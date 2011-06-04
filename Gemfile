@@ -29,3 +29,15 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+# USER DEFINED
+gem "high_voltage",       "~> 0.9.4"
+gem "nifty-generators",   "~> 0.4.6"
+gem "omniauth",           "~> 0.2.6"
+
+
+# Heroku gems for deployment
+gem 'heroku',                    '~> 2.2.1'
+gem 'taps',                      '~> 0.3.23'
+
+# END USER DEFINED
